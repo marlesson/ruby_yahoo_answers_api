@@ -32,4 +32,4 @@ require '../lib/ruby_formspring/api'
 
 api = RubyFormspring::API.new
 
-puts "#{api.details('marlessonsa').inspect}"
+puts "#{api.answered_count("marlessonsa").inspect}"
