@@ -25,11 +25,8 @@ require 'rubygems'
 require 'oauth'
 require 'xml_hate'
 
-require '../lib/ruby_formspring/profile'
-require '../lib/ruby_formspring/answered'
-require '../lib/ruby_formspring/api'
+require '../lib/ruby_yahoo_answers_api/api'
 
 
 api = RubyFormspring::API.new
 
-puts "#{api.answered_count("marlessonsa").inspect}"
