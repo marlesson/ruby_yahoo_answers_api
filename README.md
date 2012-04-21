@@ -36,6 +36,13 @@ other services listed above.
 
 http://developer.yahoo.com/answers/V1/getByUser.html
 
+## Installation
+
+
+```ruby
+gem install ruby_yahoo_answers_api
+```
+
 ## Usage
 
 ```ruby
