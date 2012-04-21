@@ -64,7 +64,7 @@ module RubyYahooAnswersApi
     end
 
     def request(url)
-      uri = URI.parse(END_POINT+url)
+      uri = URI.parse(END_POINT+URI.escape(url))
       puts uri if debug
       data = Net::HTTP.get_response(uri)
       XmlHate::Document.new(data.body)
