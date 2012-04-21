@@ -7,4 +7,6 @@ Gem::Specification.new do |s|
   s.author      = "Marlesson R. O. de Santana"
   s.email       = "marlessonsa@gmail.com"
   s.files       = Dir["{lib/**/*.rb,README.rdoc,test/**/*.rb,Rakefile,*.gemspec}"]
+
+  s.add_dependency('xml_hate', '>= 0.8.3.3')
 end
