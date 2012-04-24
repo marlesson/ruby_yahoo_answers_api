@@ -8,7 +8,7 @@ Yahoo! Answers is a place where people ask and answer questions on any topic. Th
 collective knowledge of millions of Yahoo! users. Search for expert advice on any topic, watch for new questions in
 the Answers categories of your choice, and keep track of fresh content from your favorite Answers experts.
 
-## Functions
+## Features
 
 ### question_search(query, parameters = {})
 Find questions that match your query.
@@ -85,3 +85,9 @@ readily available on their site. You could try contacting them."
 
 
 ```
+
+## Demo Rails Application
+
+Demo application for use the gem.
+
+https://github.com/marlesson/demo_rails_yahoo_answers_api
